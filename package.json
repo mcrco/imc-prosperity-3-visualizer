@@ -20,7 +20,7 @@
     "@mantine/dropzone": "^7.17.0",
     "@mantine/hooks": "^7.17.0",
     "@tabler/icons": "^3.30.0",
-    "@tabler/icons-react": "^3.30.0",
+    "@tabler/icons-react": "^3.31.0",
     "axios": "^1.7.9",
     "date-fns": "^4.1.0",
     "highcharts": "^11.4.8",
