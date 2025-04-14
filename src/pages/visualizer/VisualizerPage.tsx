@@ -14,6 +14,8 @@ import { TimestampsCard } from './TimestampsCard.tsx';
 import { TransportChart } from './TransportChart.tsx';
 import { VisualizerCard } from './VisualizerCard.tsx';
 import { VolumeChart } from './VolumeChart.tsx';
+import { MidPriceChart } from './MidPriceChart';
+
 
 export function VisualizerPage(): ReactNode {
   const algorithm = useStore(state => state.algorithm);
@@ -117,6 +119,11 @@ export function VisualizerPage(): ReactNode {
         </Grid.Col>
         <Grid.Col span={{ xs: 12, sm: 6 }}>
           <PositionChart symbols={sortedSymbols} />
+        </Grid.Col>
+        <Grid.Col span={12}>
+          <VisualizerCard title="Mid Prices">
+            <MidPriceChart />
+          </VisualizerCard>
         </Grid.Col>
         {symbolColumns}
         <Grid.Col span={12}>
