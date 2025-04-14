@@ -121,7 +121,7 @@ export function VisualizerPage(): ReactNode {
           <PositionChart symbols={sortedSymbols} />
         </Grid.Col>
         <Grid.Col span={12}>
-          <VisualizerCard title="Mid Prices">
+          <VisualizerCard title="Mid Price/Custom Functions Overlay">
             <MidPriceChart />
           </VisualizerCard>
         </Grid.Col>
